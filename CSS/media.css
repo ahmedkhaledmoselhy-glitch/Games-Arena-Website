@@ -1,0 +1,578 @@
+/* ================= MOBILE ================= */
+
+@media (max-width: 767px) {
+  /* Navbar */
+
+  .arena-navbar .container {
+    width: 100%;
+
+    max-width: 100%;
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+
+    justify-content: space-between;
+  }
+
+  .arena-navbar .navbar-toggler {
+    margin-left: auto;
+  }
+  .arena-navbar .navbar-collapse {
+    padding: 15px 0;
+
+    border-top: 1px solid var(--border-color);
+
+    margin-top: 12px;
+  }
+
+  .arena-logo {
+    font-size: 17px !important;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+  }
+
+  .navbar-toggler {
+    padding: 3px 6px;
+  }
+
+  .navbar-toggler i {
+    font-size: 20px;
+  }
+
+  .game-navigation .nav-link {
+    padding: 10px 0;
+  }
+
+  .game-actions {
+    gap: 0;
+
+    border-top: 1px solid var(--border-color);
+
+    margin-top: 12px;
+
+    padding-top: 12px;
+  }
+
+  .game-actions a {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 10px 0;
+
+    font-size: 16px;
+  }
+
+  .mobile-action-label {
+    font-size: 14px;
+  }
+
+  .arena-signin-button {
+    width: 100%;
+
+    margin-top: 8px;
+  }
+
+  /* Hero */
+
+  .gaming-container {
+    padding-top: 100px;
+  }
+
+  .gaming-layout {
+    min-height: auto;
+
+    row-gap: 50px;
+
+    transform: none;
+  }
+
+  .gaming-intro,
+  .gaming-visual {
+    transform: none;
+  }
+
+  .gaming-title {
+    font-size: 32px;
+
+    margin-bottom: 20px;
+  }
+
+  .gaming-description {
+    font-size: 13px;
+
+    margin-bottom: 24px;
+  }
+
+  .gaming-actions {
+    gap: 12px;
+
+    margin-left: 18px;
+
+    margin-right: 18px;
+  }
+
+  .gaming-actions a {
+    min-height: 44px;
+
+    padding: 0 20px;
+
+    font-size: 13px;
+  }
+
+  .gaming-visual {
+    padding: 0;
+  }
+
+  .gaming-image-wrapper {
+    max-width: 504px;
+  }
+
+  .gaming-image {
+    height: 240px;
+  }
+
+  .player-count {
+    left: -12px;
+
+    bottom: -20px;
+
+    padding: 10px 12px;
+  }
+
+  .player-count i {
+    font-size: 15px;
+  }
+
+  .player-count strong {
+    font-size: 15px;
+  }
+
+  /* ================= PARTNERS ================= */
+
+  .gaming-partners {
+    padding-bottom: 70px;
+  }
+
+  .gaming-partners::before,
+  .gaming-partners::after {
+    left: 10%;
+
+    width: 80%;
+  }
+
+  .partners-glow {
+    width: 100%;
+
+    height: 260px;
+
+    right: 0;
+
+    top: 20%;
+
+    filter: blur(30px);
+  }
+
+  .partner-logos img {
+    width: 84px;
+
+    height: 84px;
+  }
+
+  /* ================= TEAM ================= */
+
+  .team-heading h2 {
+    max-width: 420px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    font-size: 40px;
+
+    line-height: 1.05;
+  }
+
+  .team-grid > .col-6 {
+    width: 100%;
+  }
+
+  .team-card {
+    height: 280px;
+  }
+
+  .player-nickname {
+    opacity: 1;
+  }
+}
+
+/* ================= TABLET ================= */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* ================= NAVBAR ================= */
+
+  .arena-navbar .container {
+    width: 100%;
+
+    max-width: 100%;
+
+    padding-left: 24px;
+
+    padding-right: 24px;
+
+    justify-content: space-between;
+  }
+
+  .arena-navbar .navbar-toggler {
+    margin-left: auto;
+  }
+
+  /* ================= CONTAINERS ================= */
+
+  .games-section > .container,
+  .services-section > .container,
+  .team-section > .container {
+    max-width: 100%;
+
+    padding-left: 24px;
+
+    padding-right: 24px;
+  }
+
+  /* ================= HERO ================= */
+
+  .gaming-container {
+    padding-top: 110px;
+
+    padding-bottom: 70px;
+  }
+
+  .gaming-layout {
+    min-height: auto;
+
+    row-gap: 70px;
+
+    transform: none;
+  }
+
+  .gaming-layout > .gaming-intro,
+  .gaming-layout > .gaming-visual {
+    width: 100%;
+
+    flex: 0 0 100%;
+
+    max-width: 100%;
+
+    transform: none;
+  }
+
+  .gaming-description {
+    max-width: 650px;
+
+    font-size: 16px;
+
+    margin: 0 auto 28px;
+  }
+
+  .gaming-visual {
+    padding: 0;
+  }
+
+  .gaming-image-wrapper {
+    margin: 0 auto;
+  }
+
+  .gaming-image {
+    width: 100%;
+
+    height: 320px;
+  }
+
+  /* ================= GAMES ================= */
+
+  .games-heading h2 {
+    font-size: 44px;
+  }
+
+  .games-grid {
+    width: 100%;
+
+    padding: 0;
+  }
+
+  .games-grid > [class*="col-"] {
+    flex: 0 0 50%;
+
+    width: 50%;
+
+    max-width: 50%;
+  }
+
+  .game-card {
+    height: clamp(240px, 28vw, 300px);
+  }
+
+  /* ================= SERVICES ================= */
+
+  .services-heading h2 {
+    font-size: 36px;
+  }
+
+  .services-grid {
+    width: 100%;
+
+    max-width: none;
+  }
+
+  .services-grid > [class*="col-"] {
+    flex: 0 0 50%;
+
+    width: 50%;
+
+    max-width: 50%;
+  }
+
+  .service-card,
+  .service-image {
+    height: auto;
+
+    aspect-ratio: 1 / 1;
+  }
+
+  /* ================= PARTNERS ================= */
+
+  .gaming-partners::before,
+  .gaming-partners::after {
+    left: 10%;
+
+    width: 80%;
+  }
+
+  .partners-glow {
+    width: 100%;
+
+    right: 0;
+  }
+
+  /* ================= TEAM ================= */
+
+  .team-heading h2 {
+    font-size: 46px;
+  }
+
+  .team-heading p {
+    font-size: 18px;
+  }
+
+  .team-grid {
+    width: 100%;
+  }
+
+  .team-grid > [class*="col-"] {
+    flex: 0 0 50%;
+
+    width: 50%;
+
+    max-width: 50%;
+  }
+
+  .team-card {
+    width: 100%;
+
+    height: clamp(280px, 32vw, 330px);
+  }
+
+  /* ================= CONTACT US ================= */
+
+  .contact-heading h2 {
+    font-size: 40px;
+  }
+
+  .contact-heading p {
+    font-size: 18px;
+  }
+
+  .contact-layout > .col-lg-6 {
+    flex: 0 0 100%;
+
+    width: 100%;
+
+    max-width: 100%;
+  }
+
+  .contact-detail {
+    min-height: 145px;
+  }
+
+  .contact-detail h3 {
+    font-size: 22px;
+  }
+
+  .contact-detail p {
+    font-size: 16px;
+  }
+
+  .gaming-community {
+    min-height: 210px;
+  }
+
+  .gaming-community h3 {
+    font-size: 26px;
+  }
+
+  .gaming-community p {
+    font-size: 16px;
+  }
+
+  .message-form-card {
+    padding: 32px;
+  }
+
+  .message-form-card > h3 {
+    font-size: 26px;
+  }
+
+  /* ================= FOOTER ================= */
+
+  .footer-about {
+    max-width: 350px;
+
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* ================= NAVBAR ================= */
+
+  .arena-navbar .container {
+    width: 100%;
+
+    max-width: min(100%, 1232px);
+
+    padding-left: 24px;
+
+    padding-right: 24px;
+
+    flex-wrap: nowrap;
+  }
+
+  .arena-navbar .navbar-toggler {
+    display: none !important;
+  }
+
+  .arena-navbar .navbar-collapse {
+    display: flex !important;
+
+    flex-basis: auto !important;
+
+    flex-grow: 1;
+
+    align-items: center;
+
+    min-width: 0;
+  }
+
+  .arena-navbar .game-navigation {
+    display: flex;
+
+    flex-direction: row !important;
+
+    flex-wrap: nowrap;
+
+    align-items: center !important;
+
+    gap: 22px;
+
+    margin-bottom: 0;
+  }
+
+  .arena-navbar .game-navigation .nav-link {
+    white-space: nowrap;
+
+    padding: 8px 0;
+  }
+
+  .arena-navbar .mobile-tournaments-link {
+    display: none !important;
+  }
+
+  .arena-navbar .game-actions {
+    display: flex;
+
+    flex-direction: row !important;
+
+    align-items: center !important;
+
+    flex-shrink: 0;
+
+    gap: 18px;
+  }
+
+  .arena-navbar .game-actions a {
+    display: flex;
+
+    align-items: center;
+
+    white-space: nowrap;
+  }
+
+  .arena-navbar .mobile-action-label {
+    display: none !important;
+  }
+
+  /* ================= HERO ================= */
+
+  .gaming-layout {
+    row-gap: 0;
+  }
+
+  .gaming-layout > .gaming-intro,
+  .gaming-layout > .gaming-visual {
+    transform: none;
+  }
+
+  .gaming-intro {
+    text-align: left;
+  }
+
+  .gaming-description {
+    margin: 0 0 28px;
+  }
+
+  .gaming-actions {
+    justify-content: flex-start;
+  }
+
+  .gaming-image-wrapper {
+    max-width: clamp(580px, 42vw, 680px);
+
+    margin: 0 auto;
+  }
+
+  .gaming-image {
+    height: clamp(360px, 30vw, 460px);
+  }
+
+  /* ================= GAMES ================= */
+
+  /* ================= SERVICES ================= */
+
+  .services-grid {
+    width: 100%;
+
+    max-width: none;
+  }
+
+  /* ================= TEAM ================= */
+
+  .team-card {
+    width: 100%;
+  }
+}
